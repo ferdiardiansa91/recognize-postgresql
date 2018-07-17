@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS channels (
+	id BIGSERIAL PRIMARY KEY,
+	channel_name VARCHAR(255) NOT NULL,
+	channel_slug VARCHAR(255) NOT NULL
+);

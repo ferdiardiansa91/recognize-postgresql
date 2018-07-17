@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS categories (
+	id BIGSERIAL PRIMARY KEY,
+	category_name VARCHAR(255) NOT NULL,
+	category_slug VARCHAR(255) NOT NULL
+);
